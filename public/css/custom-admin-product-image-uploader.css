@@ -1,0 +1,87 @@
+#drop-container {
+  background: #ffffff;
+  min-height: 410px;
+  /*max-height: 415px;*/
+  padding: 10px;
+  border: #07c6f1 2px dashed;
+  max-width: 600px;
+}
+
+.drop-area-text {
+  text-align: center;
+  color: #e0dfdf;
+  font-size: 1em;
+}
+
+.preview {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+  border-top: solid 1px lightgray;
+  border-right: solid 1px lightgray;
+  border-left: solid 1px lightgray;
+}
+
+.imagewrap {
+  display:inline-block;
+  position:relative;
+  margin: 10px;
+  max-width: 132px;
+  max-height: 132px;
+}
+.imageButtonDelete {
+  position:absolute;
+  top:0;
+  right:-25px;
+}
+.imageSelectList {
+  margin-left: 10px;
+  font-size: 12px;
+  max-width: 130px;
+  width: 100%;
+  top: -6px;
+  position: relative;
+  border: solid 1px lightgray;
+  height: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .preview {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    border-top: solid 1px lightgray;
+    border-right: solid 1px lightgray;
+    border-left: solid 1px lightgray;
+  }
+  .imagewrap {
+    display:inline-block;
+    position:relative;
+    margin: 10px;
+    max-width: 92px;
+    max-height: 92px;
+  }
+  .imageButtonDelete {
+    position:absolute;
+    top:0;
+    right:-25px;
+  }
+  .imageSelectList {
+    margin-left: 10px;
+    font-size: 12px;
+    max-width: 90px;
+    width: 100%;
+    top: -6px;
+    position: relative;
+    border: solid 1px lightgray;
+    height: 25px;
+  }
+}

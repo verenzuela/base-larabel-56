@@ -1,0 +1,168 @@
+
+.non-ref-red-dot {
+  margin-top: 0px;
+  margin-right: 2px;
+  border-radius: 10px;
+  width: 8px;
+  height: 8px;
+  background-color: #e75a5a;
+  float: left;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.map-scroll:before {
+	content: 'Use ctrl + scroll to zoom the map';
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	z-index: 999;
+	font-size: 30px;
+}
+.map-scroll:after {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0%;
+	content: '';
+	background: #00000061;
+	z-index: 999;
+}
+
+
+.calendar_table .date {display: inline-block; text-align: center; font-size: 80%; }
+.calendar_table .date .day {display: inline-block; font-weight: bold;}
+.calendar_table tr td.selectable {padding: 0px!important; border-right: 1px solid white; }
+.calendar_table tr td:last-child {border-right:none;}
+
+.month_select .current_month {
+    display: inline-block;
+    padding: 0 20px;
+}
+.calendar_settings .calendar_type,
+.calendar_settings .edit_selection {
+    margin-left: 50px;
+}
+.calendar_table {
+    width: 100%;
+    margin-top: 0px;
+}
+.calendar_table tr td {
+    background-color: #fff;
+    border: 2px solid #f3f4f6;
+    vertical-align: top;
+    padding: 4px!important;
+    border-right: 1px solid white;
+}
+.calendar_table tr td .room_info {
+    font-size: 85%;
+    padding-top: 0px;
+    padding-bottom: 1.5px;
+}
+.calendar_table tr td.different_month {
+    background-color: #eee;
+    color: gray;
+    border: 1px solid #eee;
+}
+
+.calendar_table tr td.closed { background-color: #d9534f; color: white; }
+.closed { background-color: #d9534f; color: white; }
+
+.calendar_table tr td.closed.out_of_inventory { background-color: #d9534f; color: white; }
+
+
+.calendar_table tr td.out_of_inventory {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.rate_day{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.out_of_inventory {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.calendar_table tr td.out_of_inventory.has_inventory {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.calendar_table tr td.out_of_inventory.low_inventory.has_inventory {
+    background-color: #ef8e4d;
+    color: white;
+}
+
+.calendar_table tr td.edit_inventory {
+    background-color: #4697ce!important;
+    color: white;
+}
+.edit_inventory {
+    background-color: #4697ce!important;
+    color: white;
+}
+
+.calendar_table tr td.edit_inventory:hover,
+.calendar_table tr td.out_of_inventory:hover
+{
+    background-color: none!important;
+    color: black;
+}
+
+.calendar_table tr td.has_inventory:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+
+.calendar_table tr td.closed:hover
+{
+    background-color: none!important;
+    color: black;
+}
+
+.calendar_table tr td.selected.has_inventory,
+.calendar_table tr td.selected.edit_inventory,
+.calendar_table tr td.selected.out_of_inventory,
+.calendar_table tr td.selected
+{
+    background-color: #666!important;
+    color: white;
+}
+.calendar_table .date {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: auto;
+    display: block;
+    line-height: 110%;
+}
+.calendar_table th {
+    text-decoration: none;
+}
+.calendar_table th:hover {
+    text-decoration: none;
+}
+.calendar_table .rooms {
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+.calendar_table th {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: grey;
+    color: white;
+}
+
+
+.fa-delete:hover {
+    color: red;
+    cursor: pointer;
+}
+
+

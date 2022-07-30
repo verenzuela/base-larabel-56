@@ -1,0 +1,17 @@
+:root {
+    
+    --principal-dark-color: #86c094;
+    --principal-light-color: #9fe2bf;
+    --principal-soft-color: #b0ebbd;
+}
+
+
+.background-dark-color {
+    background-color: var(--principal-dark-color);
+}
+.background-light-color {
+    background-color: var(--principal-light-color);
+}
+.background-soft-color {
+    background-color: var(--principal-soft-color);
+}
